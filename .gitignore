@@ -1,0 +1,31 @@
+# Secrets
+key.txt
+**/key.txt
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Generated outputs
+all_zoning_data_batch.csv
+all_zoning_data_batch.json
+all_zoning_batch_raw.jsonl
+batch_cleaned.csv
+batch_complete.csv
+complete.csv
+missed.csv
+missed.json
+zone_cleaning.log
+
+# Local zoning source files can be large; keep them local.
+Cities/*.pdf
+city_pdfs/*.pdf
+test/*.pdf
+test2/*.pdf
+ADD/*.pdf
+Edmonds/**/*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
