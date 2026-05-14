@@ -4,7 +4,7 @@ This repository contains a Jupyter notebook for extracting structured zoning and
 
 ## Main Notebook
 
-`Gemini_API_Batch-Copy1.ipynb` runs a batch job against PDFs stored in the `Cities` folder. For each zoning PDF, it:
+`Gemini_API_Batch.ipynb` runs a batch job against PDFs stored in the `Cities` folder. For each zoning PDF, it:
 
 1. Reads the Gemini API key from a local `key.txt` file.
 2. Uploads each PDF in `Cities/*.pdf` to Gemini.
